@@ -9,7 +9,7 @@ from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
 
 nltk.download('stopwords')
-file = open("ChildrenStoriesSingleRow2", encoding='utf-8').read()
+file = open("ChildrenStoriesSingleRow2.csv", encoding='utf-8').read()
 #file = open("frankenstein-2.txt").read()
 
 def tokenize_words(text_input):
